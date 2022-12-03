@@ -24,7 +24,7 @@ The general rules for naming variables are:
 •	Reserved words (like Java keywords, such as int or boolean) cannot be used as names
 //**You can also use the + character to add a variable to another variable:
 
-#Java Data Types
+# Java Data Types
 As explained in the previous chapter, a variable in Java must be a specified data type:
 Example
 int myNum = 5;               // Integer (whole number)
@@ -46,7 +46,7 @@ Primitive Data Types
 A primitive data type specifies the size and type of variable values, and it has no additional methods.
 There are eight primitive data types in Java:
 
-#Strings
+# Strings
 The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
 Basically, string is a sequence of characters but it's not a primitive type. When we create a string in java, it actually creates an object of type String. String is immutable object which means that it cannot be changed once it is created. String is the only class where operator overloading is supported in java.
 A string buffer is like a String , but can be modified. At any point in time it contains some particular sequence of characters, but the length and content of the sequence can be changed through certain method calls. String buffers are safe for use by multiple threads.
